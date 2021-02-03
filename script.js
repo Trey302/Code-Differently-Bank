@@ -2,9 +2,9 @@ const acctBalanceLbl = document.getElementById("checkingBalance");
 const deposits = [];
 const withdrawals = [];
 let totalBalance = 500;
-const userDeposit = document.getElementById("userDeposit");
+const userDeposit = document.getElementById("deposit");
 const btnDeposit = document.getElementById("btnDeposit");
-const userWithdraw = document.getElementById("userWithdraw");
+const userWithdraw = document.getElementById("withdraw");
 const btnWithdraw = document.getElementById("btnWithdraw");
 
 // $
@@ -88,9 +88,9 @@ const acctBalanceLbl2 = document.getElementById("savingsBalance");
 const deposits2 = [];
 const withdrawals2 = [];
 let totalBalance2 = 500;
-const userDeposit2 = document.getElementById("userDeposit2");
+const userDeposit2 = document.getElementById("deposit2");
 const btnDeposit2 = document.getElementById("btnDeposit2");
-const userWithdraw2 = document.getElementById("userWithdraw2");
+const userWithdraw2 = document.getElementById("withdraw2");
 const btnWithdraw2 = document.getElementById("btnWithdraw2");
 
 
